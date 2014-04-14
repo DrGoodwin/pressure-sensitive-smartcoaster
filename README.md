@@ -9,5 +9,7 @@ The first step of the project was to create the Arduino code to trigger the diff
 
 Once that was worked out it was a simple matter of modifying the Standard Firmata Code so that the LED would be triggered at the same time as the apparatus is communicating with the Flash interface. 
 
+To create the interface I modified Kasper Kampermann's code from  http://www.kasperkamperman.com/blog/arduino/arduino-flash-communication-as3/.
+
 The interface is a visualization using custom graphics that displays a virtual glass on screen with different levels of virtual beer inside depending on the amount of pressure applied to the FSR. 
 
